@@ -1,0 +1,121 @@
+{
+	"menu" : [
+	  {
+		"category" : "BreakFast",
+		"item" : [
+		  {
+
+			"name" : "BreadButter",
+			"value" : 40
+		  },
+		  {
+
+			"name" : "BreadJam",
+			"value" : 30
+		  },
+
+		  {
+
+			"name" : "Veg Sandwhich",
+			"value" : 80
+		  }
+		]
+	  },
+		{
+		  "category" : "Drinks",
+			"item" : [
+				{
+
+					"name" : "Chiku shake",
+					"value" : 80
+				},
+				{
+
+					"name" : "Strawberry shake",
+					"value" : 80
+				},
+				{
+
+					"name" : "Chocolate shake",
+					"value" : 80
+				},
+              {
+
+                "name" : "Cold Coffee shake",
+                "value" : 80
+              },
+              {
+
+                "name" : "Pineapple juice",
+                "value" : 80
+              },
+              {
+
+                "name" : "Orange juice",
+                "value" : 80
+              }
+			]
+		},
+	  {
+		"category" : "Trending",
+		"item" : [
+		  {
+
+			"name" : "CTC",
+			"value" : 80
+		  },
+		  {
+
+			"name" : "Club Sandwhich",
+			"value" : 80
+		  },
+		  {
+
+			"name" : "Veg Burger",
+			"value" : 80
+		  }
+		]
+	  },
+	  {
+		"category" : "Roti",
+		"item" : [
+		  {
+
+			"name" : "Butter Naan",
+			"value" : 80
+		  },
+		  {
+
+			"name" : "Butter Roti",
+			"value" : 80
+		  }
+
+		]
+	  },
+	  {
+		  "category" : "Sabjis",
+			"item" : [
+				{
+
+					"name" : "Paneer Tikka",
+					"value" : 150
+				},
+				{
+
+					"name" : "Kaju Koya",
+					"value" : 170
+				},
+				{
+
+					"name" : "Palak Paneer",
+					"value" : 130
+				},
+              {
+
+                "name" : "Veg Hyderabadi",
+                "value" : 80
+              }
+			]
+		}
+	]
+}

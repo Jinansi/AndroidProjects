@@ -1,0 +1,25 @@
+{
+	"message" : "Successfull",
+	"hotels" : [
+		{
+			"name" : "Cafe coffee day",
+			"email" : "ccd@gmail.com",
+			"address" : "Infocity, Gandhinagar"
+		},
+		{
+			"name" : "Cafe coffee day",
+			"email" : "ccd@gmail.com",
+			"address" : "Infocity, Gandhinagar"
+		},
+		{
+			"name" : "Cafe coffee day",
+			"email" : "ccd@gmail.com",
+			"address" : "Infocity, Gandhinagar"
+		},
+		{
+			"name" : "Cafe coffee day",
+			"email" : "ccd@gmail.com",
+			"address" : "Infocity, Gandhinagar"
+		}
+	]
+}

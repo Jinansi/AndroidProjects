@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context="com.example.good.automotellogin.Activity.ScrollTabsMenu">
+
+    <!--<de.hdodenhof.circleimageview.CircleImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="right"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:id="@+id/confirmorder"-->
+        <!--android:src="@drawable/confirm"-->
+        <!--/>-->
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:background="?attr/colorPrimary"
+        android:elevation="6dp"
+        app:tabTextAppearance="@style/MineCustomTabText"
+        android:minHeight="?attr/actionBarSize"
+        app:tabMode="scrollable" />
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/pager"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab_layout"
+        android:layout_width="match_parent">
+
+
+
+    </android.support.v4.view.ViewPager>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentBottom="true"
+        android:background="#00bcd4"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/saveorder"
+            android:src="@drawable/confirm"
+            />
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="right"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:id="@+id/confirmorder"-->
+            <!--android:src="@drawable/confirm"-->
+            <!--/>-->
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

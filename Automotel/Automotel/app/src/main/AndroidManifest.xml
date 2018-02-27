@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.good.automotellogin" >
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/automotelicon"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme.Base" >
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <activity
+            android:name=".Activity.Splash"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/app_name" />
+
+        <activity android:name=".Activity.Facebooklogin"
+
+            android:label="@string/app_name" />
+        <activity android:name=".Activity.FacebookLogout"/>
+        <activity android:name=".Activity.QrActivity"/>
+        <activity android:name=".Activity.RegisterActivity"
+            android:label="@string/app_name"/>
+
+        <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        <activity android:name=".Activity.Favorites"/>
+        <activity android:name=".Activity.Reviews"/>
+        <activity android:name=".Activity.DbJSONList"/>
+        <activity android:name=".Activity.ParallaxList"/>
+        <activity android:name=".Activity.PostReview"/>
+        <activity
+            android:name=".Activity.LoginActivity2"
+            android:label="Login" />
+        <activity
+            android:name=".Activity.RestaurantList"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Activity.ScrollTabsMenu"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Activity.DbReslist"
+            android:label="@string/title_activity_db_reslist" >
+        </activity>
+        <activity android:name=".Activity.NavDrawer"/>
+        <activity android:name=".Activity.SaveOrder"
+            android:label="@string/app_name"/>
+    </application>
+
+</manifest>

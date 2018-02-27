@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ViewPractice</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_2">Activity2</string>
+    <string name="title_activity_restaurant_list">RestaurantList</string>
+    <string-array name="RestaurantList">
+        <item>Jassi Da Paratha</item>
+        <item>City Lake Restaurant</item>
+        <item>Momos cafe</item>
+        <item>Treat</item>
+        <item>Cafe-Treat</item>
+    </string-array>
+    <string-array name="ResLocation">
+        <item>Naranpura,Ahmedabad</item>
+        <item>Vastrapur,Ahmedabad</item>
+        <item>Satellite,Ahmedabad</item>
+        <item>Ellisbridge, Ahmedabad</item>
+        <item>Bodakdev,Ahmedabad</item>
+    </string-array>
+</resources>
